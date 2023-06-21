@@ -6,7 +6,7 @@ import { getFirestore } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9-zsUmiFkZ0H75BFphxzPJ0Y32Hwkg0M",
+  apiKey: ENV.API_KEY,
   authDomain: "uber-eats-react-native-a8e2e.firebaseapp.com",
   projectId: "uber-eats-react-native-a8e2e",
   storageBucket: "uber-eats-react-native-a8e2e.appspot.com",
